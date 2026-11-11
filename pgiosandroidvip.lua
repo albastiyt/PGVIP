@@ -736,7 +736,7 @@ _G.pghacksState = _G.pghacksState or {
     ConsoleNewWallReady = false,
 }
 
-local limitTime = os.time({ year = 2026, month = 11, day = 10, hour = 23, min = 59, sec = 0 })
+local limitTime = os.time({ year = 2026, month = 11, day = 15, hour = 23, min = 59, sec = 0 })
 local currentTime = os.time(os.date("!*t"))
 local isExpired = false
 
